@@ -19,10 +19,16 @@ public class MoocBeforeAdvice implements MethodBeforeAdvice {
             throws Throwable {
         System.out.println("MoocBeforeAdvice : " + method.getName() + "     " +
                 target.getClass().getName());
-
     }
 
     public void greet() {
         System.out.print("dolce commit");
     }
+
+
+    public void greet2() {
+        System.out.print("dolce commit");
+    }
+
+
 }
