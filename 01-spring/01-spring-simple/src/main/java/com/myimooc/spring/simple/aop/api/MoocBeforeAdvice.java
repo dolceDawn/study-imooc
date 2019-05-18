@@ -30,5 +30,9 @@ public class MoocBeforeAdvice implements MethodBeforeAdvice {
         System.out.print("dolce commit");
     }
 
+    public void addInMaster() {
+        System.out.print("master add");
+    }
+
 
 }
